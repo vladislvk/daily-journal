@@ -1,14 +1,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    var dogs = ["bobik","aktos","sharik"]
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        List(dogs, id: \.self){ listedDog in
+            Text(listedDog)
         }
-        .padding()
     }
 }
 
