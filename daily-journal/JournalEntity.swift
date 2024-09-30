@@ -19,4 +19,6 @@ class JournalEntity: Identifiable {
 let journalEntities:[JournalEntity] =
 [JournalEntity(title: "zxc", text: "zxc", rating: 5, date: Date()),
  JournalEntity(title: "zxc", text: "zxc", rating: 5, date: Date()),
+ JournalEntity(title: "zxc", text: "zxc", rating: 5, date: Date()),
+ JournalEntity(title: "zxc", text: "zxc", rating: 5, date: Date()),
  JournalEntity(title: "zxc", text: "zxc", rating: 5, date: Date())]
